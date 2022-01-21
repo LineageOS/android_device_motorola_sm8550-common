@@ -1,19 +1,3 @@
-# Charger-specific file
-on init
-    setprop vendor.usb.adb_early ${ro.boot.adb_early:-"0"}
-
-on charger
-    setprop vendor.usb.charging.func.name fastboot
-
-# Wait for the USB init shell script to finish, to prevent enumeration issues
-on property:init.svc.vendor.mmi-usb-sh=stopped && property:ro.boot.mode=charger && property:vendor.usb.adb_early=0
-    setprop sys.usb.configfs 1
-    setprop sys.usb.config fastboot
-
-on property:init.svc.vendor.mmi-usb-sh=stopped && property:ro.boot.mode=charger && property:vendor.usb.adb_early=1
-    setprop sys.usb.configfs 1
-    setprop sys.usb.config adb
-
 on late-fs-charger
     class_start early_hal
     mount_all --late
@@ -32,12 +16,6 @@ on charger
 
 on moto-charger
     stop vendor.sensors
-    trigger firmware_mounts_complete
-    wait /sys/class/power_supply/battery
-    wait /sys/class/power_supply/usb
-    write /sys/devices/platform/soc/soc:mmi,charger/state_sync 1
-    wait /sys/class/udc/${sys.usb.controller} 20
-    start vendor.charge_only_mode
     start vendor.thermal-com
     start system_suspend
 
@@ -65,12 +43,6 @@ on moto-charger
     write /sys/bus/platform/devices/1d84000.ufshc/auto_hibern8 5000
     #Enable UFS clock gating back
     write /sys/bus/platform/devices/1d84000.ufshc/clkgate_enable 1
-
-service vendor.charge_only_mode /vendor/bin/charge_only_mode
-    user root
-    group graphics system input
-    capabilities SYS_BOOT
-    disabled
 
 service vendor.thermal-com /vendor/bin/thermal-engine-v2 --minimode
     class main
