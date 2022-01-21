@@ -217,9 +217,6 @@ on post-fs-data
     # Setup folder for aplogd
     mkdir /data/vendor/aplogd 0770 log log
 
-    # Create directory used by chargeonlymode
-    mkdir /data/vendor/chargeonly 0750 root log
-
     # Subsystem RAM-dumps
     mkdir /data/vendor/ss-ram-dumps 0750 system log
     mkdir /data/vendor/ss-ram-dumps/bp-dumps 0750 system log
