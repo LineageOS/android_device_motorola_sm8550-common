@@ -202,7 +202,6 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 
 # Charger
-vendor/bin/charge_only_mode
 vendor/etc/charger_fw_fstab.qti
 
 # CNE
