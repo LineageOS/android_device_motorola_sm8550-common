@@ -210,6 +210,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResCommon \
+    LineageApertureAppCommon \
     LineageSdkCommon \
     SystemUIResCommon \
     TelephonyResCommon \
