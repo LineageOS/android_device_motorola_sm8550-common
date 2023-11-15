@@ -16,6 +16,24 @@
       "message": "Why?",
       "revId": "86d969dcde85bc27ca92a7cc5726a25ec71b41a4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e364d56e_b8897ad8",
+        "filename": "sm8550.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-11-15T02:21:33Z",
+      "side": 1,
+      "message": "Oops, accidental diff merge, removed it",
+      "parentUuid": "0e8ff4fc_bd2a0f58",
+      "revId": "86d969dcde85bc27ca92a7cc5726a25ec71b41a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

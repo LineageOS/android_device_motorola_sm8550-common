@@ -16,6 +16,24 @@
       "message": "This has a change of its own.",
       "revId": "9af7f68adf359fd247686ef0d10466f40ed14a0f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb3bf725_42fcd127",
+        "filename": "sm8550.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-11-15T02:21:33Z",
+      "side": 0,
+      "message": "Fixed, thank you",
+      "parentUuid": "4d287aa3_0ace38f6",
+      "revId": "9af7f68adf359fd247686ef0d10466f40ed14a0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
