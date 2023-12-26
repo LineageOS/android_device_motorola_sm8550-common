@@ -311,6 +311,10 @@ PRODUCT_PACKAGES += \
     MotoActions \
     MotoCommonOverlay
 
+# Memtrack
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.memtrack-service
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
