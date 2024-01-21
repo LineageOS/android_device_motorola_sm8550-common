@@ -564,3 +564,6 @@ on property:ro.carrier=softbank
 # IKSWT-90913: Force shutter tone on Japan ymobile carrier
 on property:ro.carrier=ymobile
     setprop audio.camerasound.force true
+
+on property:init.svc.bootanim=running
+    stop bootanim
