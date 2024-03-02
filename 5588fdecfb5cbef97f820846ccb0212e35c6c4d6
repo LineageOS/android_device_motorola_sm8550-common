@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd34817a_62ed0b16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-03-02T12:00:03Z",
+      "side": 1,
+      "message": "it\u0027s not perfect... about 80% of reboots have the full bootanim and the rest are either partial or none, but it\u0027s still a lot better than zero bootanim",
+      "revId": "5588fdecfb5cbef97f820846ccb0212e35c6c4d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
