@@ -465,6 +465,12 @@ service vendor.mbm_spy /vendor/bin/mbm_spy
 
 on property:sys.boot_completed=1
     start vendor.mbm_spy
+    stop vendor.qcrild
+    stop vendor.qcrild2
+    stop vendor.qcrild3
+    start vendor.qcrild
+    start vendor.qcrild2
+    start vendor.qcrild3
 
 service vendor.mmi-touch-sh /vendor/bin/init.mmi.touch.sh
     class core
