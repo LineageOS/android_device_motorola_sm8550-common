@@ -70,7 +70,8 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE += \
     firmware_class.path=/vendor/firmware_mnt/image \
     nosoftlockup \
-    printk.devkmsg=on
+    printk.devkmsg=on \
+    sysctl.kernel.firmware_config.force_sysfs_fallback=1
 BOARD_BOOTCONFIG += \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
