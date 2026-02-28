@@ -64,16 +64,12 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('ro.boot.using_zram_from_fstab', 'ro.vendor.zram.swapon'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .add_line_if_missing('sensors.moto_ext.so'),
-    'vendor/etc/seccomp_policy/qwesd@2.0.policy': blob_fixup()
-        .add_line_if_missing('pipe2: 1'),
     'vendor/etc/public.libraries.txt': blob_fixup()
         .regex_replace('libqti-perfd-client.so\n', ''),
     'vendor/etc/media_codecs_kalama.xml': blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
     ('vendor/bin/hw/motorola.hardware.sensorext-service', 'vendor/lib64/libdpps.so', 'vendor/lib64/libsnapdragoncolor-manager.so'): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
-    'vendor/lib64/libqcodec2_core.so': blob_fixup()
-        .add_needed('libcodec2_shim.so'),
     'vendor/lib64/sensors.moto.so': blob_fixup()
         .add_needed('libbase_shim.so'),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
