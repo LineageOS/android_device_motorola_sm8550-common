@@ -179,7 +179,6 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sysfs
 
 $(call soong_config_set_bool,livedisplay_sdm,enable_dm,false)
-$(call soong_config_set_bool,livedisplay_sysfs,enable_af,true)
 $(call soong_config_set_bool,livedisplay_sysfs,enable_se,true)
 
 # Media
