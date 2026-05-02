@@ -373,6 +373,7 @@ vendor/lib64/libclstc_tm.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libfeutils.so
+vendor/lib64/libgame_enhance.so
 vendor/lib64/libintervmipc.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libqrtrclient.so
