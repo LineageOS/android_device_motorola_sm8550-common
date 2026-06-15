@@ -35,4 +35,4 @@
 # specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
 
 #<src>                                                 <mnt_point>            <type>  <mnt_flags and options>                            <fs_mgr_flags>
-/dev/block/zram0                                        none                   swap    defaults                                             zramsize=65%
+/dev/block/zram0                                        none                   swap    defaults                                             zramsize=75%
