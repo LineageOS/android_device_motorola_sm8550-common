@@ -100,10 +100,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
-# fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # GPS
 PRODUCT_PACKAGES += \
     gnss@2.0-base.policy \
