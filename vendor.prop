@@ -263,7 +263,6 @@ ro.vendor.use_data_netmgrd=true
 # SOC
 ro.hardware.soc.manufacturer=qcom
 ro.soc.manufacturer=QTI
-ro.soc.model=SM8550
 
 # Surfaceflinger
 ro.surface_flinger.enable_frame_rate_override=true
