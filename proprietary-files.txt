@@ -351,7 +351,6 @@ vendor/lib64/libhdrdynamicootf.so
 
 # Display - HWC
 vendor/lib64/libmemutils.so
-vendor/lib64/libvmmem.so
 
 # Display - SDM
 vendor/etc/clstc_config_library.xml
