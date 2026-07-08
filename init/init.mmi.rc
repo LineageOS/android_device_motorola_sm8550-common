@@ -217,9 +217,6 @@ on post-fs-data
     # Setup folder for aplogd
     mkdir /data/vendor/aplogd 0770 log log
 
-    # Create directory used by chargeonlymode
-    mkdir /data/vendor/chargeonly 0750 root log
-
     # Subsystem RAM-dumps
     mkdir /data/vendor/ss-ram-dumps 0750 system log
     mkdir /data/vendor/ss-ram-dumps/bp-dumps 0750 system log
@@ -281,12 +278,6 @@ on boot
    # Quiet binder logs
    write /sys/module/binder/parameters/debug_mask 0x5
 
-   # Clear cooldown state
-   mkdir /mnt/vendor/persist/chargeonly 0770 system system
-   write /mnt/vendor/persist/chargeonly/cooldown n
-   chown system system /mnt/vendor/persist/chargeonly/cooldown
-   chmod 0660 /mnt/vendor/persist/chargeonly/cooldown
-
    # Change owner ship of l5 laser calibration
    chown camera vendor_tcmd /mnt/vendor/persist/camera/focus/offset_cal
    chmod 0660 /mnt/vendor/persist/camera/focus/offset_cal
@@ -310,6 +301,15 @@ on property:sys.boot_completed=1 && property:ro.vendor.zram.swapon=true
 on property:sys.boot_completed=1
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
+
+on charger
+    trigger early-fs
+    trigger fs
+    trigger post-fs
+    trigger late-fs
+    trigger post-fs-data
+    class_stop main
+    class_stop late_start
 
 service vendor.mmi-boot-sh /vendor/bin/init.mmi.boot.sh
     class core
