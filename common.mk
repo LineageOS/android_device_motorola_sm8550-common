@@ -85,9 +85,6 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
 $(call soong_config_set,qtiaudio,pal_spkr_protection_path,/mnt/vendor/persist/factory/audio/audio.cal)
 
-# Charger
-WITH_LINEAGE_CHARGER := false
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
