@@ -17,13 +17,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mmi.charge_only.rc",
-    src: "init.mmi.charge_only.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.mmi.chipset.rc",
     src: "init.mmi.chipset.rc",
     sub_dir: "init/hw",
