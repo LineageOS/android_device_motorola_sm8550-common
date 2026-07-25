@@ -16,6 +16,24 @@
       "message": "You might wanna keep this service too",
       "revId": "3762b358d1b8ade109e3c93c6188fdf7809bdd9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c386c5d3_10ed6793",
+        "filename": "init/init.mmi.charge_only.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-07-25T23:57:50Z",
+      "side": 0,
+      "message": "Thanks Michael, after more reviewing, I should just switch to Dian\u0027s original commit that this one\u0027s based upon since I should keep most of what he has anyways\n\nhttps://review.lineageos.org/c/LineageOS/android_device_motorola_sm8550-common/+/494632",
+      "parentUuid": "628f6b75_a718fb20",
+      "revId": "3762b358d1b8ade109e3c93c6188fdf7809bdd9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
