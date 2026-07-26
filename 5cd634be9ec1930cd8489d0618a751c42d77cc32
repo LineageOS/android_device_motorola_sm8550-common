@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f270076_3721e34b",
+        "filename": "init/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-07-26T07:10:51Z",
+      "side": 1,
+      "message": "Missed this?",
+      "revId": "5cd634be9ec1930cd8489d0618a751c42d77cc32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
