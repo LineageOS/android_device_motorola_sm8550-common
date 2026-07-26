@@ -16,6 +16,24 @@
       "message": "Missed this?",
       "revId": "5cd634be9ec1930cd8489d0618a751c42d77cc32",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c439bc6_dcb71606",
+        "filename": "init/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-07-26T14:21:11Z",
+      "side": 1,
+      "message": "Thanks Michael, fixed",
+      "parentUuid": "6f270076_3721e34b",
+      "revId": "5cd634be9ec1930cd8489d0618a751c42d77cc32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
