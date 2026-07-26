@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "131c8152_214887b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-07-26T03:53:21Z",
+      "side": 1,
+      "message": "Hmm, still battery isn\u0027t detect and firmware never mounts on rtwo",
+      "revId": "ea9a6b11fb0aaff6c203e4d720f57496aa54a9da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
