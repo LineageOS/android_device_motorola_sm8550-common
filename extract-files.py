@@ -60,8 +60,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libinput_shim.so'),
     'vendor/bin/init.kernel.post_boot.sh': blob_fixup()
         .regex_replace('ro.boot.using_zram_from_fstab', 'ro.vendor.zram.swapon'),
-    'vendor/lib64/libwvhidl.so': blob_fixup()
-        .add_needed('libcrypto_shim.so'),
     ('vendor/bin/hw/android.hardware.security.keymint-service-qti', 'vendor/lib64/libqtikeymint.so'): blob_fixup()
         .add_needed('android.hardware.security.rkp-V3-ndk.so'),
     'vendor/etc/media_codecs_kalama.xml': blob_fixup()
@@ -79,18 +77,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/sensors.moto.so': blob_fixup()
         .add_needed('libbase_shim.so'),
     (
-        'vendor/bin/poweropt-service',
         'vendor/bin/hw/motorola.hardware.sensorext-service',
-        'vendor/lib64/libaodoptfeature.so',
-        'vendor/lib64/libapengine.so',
         'vendor/lib64/libdpps.so',
-        'vendor/lib64/libgamepoweroptfeature.so',
-        'vendor/lib64/liblearningmodule.so',
-        'vendor/lib64/libpowercore.so',
-        'vendor/lib64/libpsmoptfeature.so',
         'vendor/lib64/libsnapdragoncolor-manager.so',
-        'vendor/lib64/libstandbyfeature.so',
-        'vendor/lib64/libvideooptfeature.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 }  # fmt: skip
