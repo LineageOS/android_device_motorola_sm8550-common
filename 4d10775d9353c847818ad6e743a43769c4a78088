@@ -16,6 +16,24 @@
       "message": "any reason for doing this?",
       "revId": "4d10775d9353c847818ad6e743a43769c4a78088",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9ccc1fe_cb8910b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-07-27T20:16:09Z",
+      "side": 1,
+      "message": "tbh I\u0027m just keeping this tree up to date with sm8475 / sm7435, and I saw that one of their devices (genevn) has a custom recovery size. That way, if someone forks sm8550, they can also take advantage of this (I\u0027m still waiting to see ctwo custom ROM for LOS one day...)",
+      "parentUuid": "6faf769a_101c81e0",
+      "revId": "4d10775d9353c847818ad6e743a43769c4a78088",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
