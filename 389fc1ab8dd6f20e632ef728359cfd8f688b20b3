@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a9d5a94_d788c413",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-07-28T01:22:29Z",
+      "side": 1,
+      "message": "dmesg says this\n\n[    1.679958] init: Command \u0027mount vfat /dev/block/bootdevice/by-name/modem${ro.boot.slot_suffix} /firmware ro context\u003du:object_r:firmware_file:s0\u0027 action\u003dfs (/system/etc/init/init.qcom.recovery.rc:43) took 1ms and failed: mount() failed: Invalid argument",
+      "revId": "389fc1ab8dd6f20e632ef728359cfd8f688b20b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
