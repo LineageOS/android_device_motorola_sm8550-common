@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "361c99f7_cc67513c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-08-15T03:58:28Z",
+      "side": 1,
+      "message": "FAILED: out/soong/.intermediates/vendor/motorola/sm8550-common/libqcodec2_core/android_vendor_arm64_armv8-2a-dotprod_shared/libqcodec2_core.so.check_elf_file\nout/host/linux-x86/bin/check_elf_file --skip-unknown-elf-machine --soname libqcodec2_core.so --shared-lib out/soong/.intermediates/system/core/libutils/libutils/android_vendor_arm64_armv8-2a-dotprod_shared/libutils.so --shared-lib out/soong/.intermediates/system/core/libcutils/libcutils/android_vendor_arm64_armv8-2a-dotprod_shared/libcutils.so --shared-lib out/soong/.intermediates/system/logging/liblog/liblog/android_vendor_arm64_armv8-2a-dotprod_shared/liblog.so --shared-lib out/soong/.intermediates/frameworks/av/media/codec2/vndk/libcodec2_vndk/android_vendor_arm64_armv8-2a-dotprod_shared_cfi/libcodec2_vndk.so --shared-lib out/soong/.intermediates/vendor/motorola/sm8550-common/libqcodec2_base/android_vendor_arm64_armv8-2a-dotprod_shared/libqcodec2_base.so --shared-lib out/soong/.intermediates/vendor/motorola/sm8550-common/libqcodec2_hooks/android_vendor_arm64_armv8-2a-dotprod_shared/libqcodec2_hooks.so --shared-lib out/soong/.intermediates/vendor/motorola/sm8550-common/libqcodec2_utils/android_vendor_arm64_armv8-2a-dotprod_shared/libqcodec2_utils.so --shared-lib out/soong/.intermediates/vendor/motorola/sm8550-common/libqcodec2_platform/android_vendor_arm64_armv8-2a-dotprod_shared/libqcodec2_platform.so --shared-lib out/soong/.intermediates/vendor/motorola/sm8550-common/libqcodec2_basecodec/android_vendor_arm64_armv8-2a-dotprod_shared/libqcodec2_basecodec.so --shared-lib out/soong/.intermediates/vendor/motorola/sm8550-common/qti.video.utils.videobufferlayout/android_vendor_arm64_armv8-2a-dotprod_shared/qti.video.utils.videobufferlayout.so --shared-lib out/soong/.intermediates/bionic/libc/libc/android_vendor_arm64_armv8-2a-dotprod_shared/libc.so --shared-lib out/soong/.intermediates/bionic/libm/libm/android_vendor_arm64_armv8-2a-dotprod_shared/libm.so --shared-lib out/soong/.intermediates/prebuilts/clang/host/linux-x86/libc++/android_vendor_arm64_armv8-2a-dotprod_shared/libc++.so --shared-lib out/soong/.intermediates/bionic/libdl/libdl/android_vendor_arm64_armv8-2a-dotprod_shared/libdl.so --system-shared-lib libdl.so --llvm-readobj\u003dprebuilts/clang/host/linux-x86/clang-r563880c/bin/llvm-readobj vendor/motorola/sm8550-common/proprietary/vendor/lib64/libqcodec2_core.so \u0026\u0026 touch out/soong/.intermediates/vendor/motorola/sm8550-common/libqcodec2_core/android_vendor_arm64_armv8-2a-dotprod_shared/libqcodec2_core.so.check_elf_file\nvendor/motorola/sm8550-common/proprietary/vendor/lib64/libqcodec2_core.so: error: Unresolved symbol: _ZN15_C2FenceFactory15CreateSyncFenceEi",
+      "revId": "1a0807c48bedda519253858f5c4e5c976bb15e02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
