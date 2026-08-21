@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a50a4a3b_90c4a10f",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 310,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-21T00:09:31Z",
+      "side": 1,
+      "message": "Not needed.",
+      "range": {
+        "startLine": 310,
+        "startChar": 4,
+        "endLine": 310,
+        "endChar": 38
+      },
+      "revId": "9e54e61cb4116cf177b15777aafdf3d4d38b4600",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
