@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c671298_e659d56d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-21T00:08:16Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_motorola_sm8550-common/blob/add680e1d519cb335f59c8df37ffe96fa03b4a8c/extract-files.py#L56-L57",
+      "revId": "add680e1d519cb335f59c8df37ffe96fa03b4a8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
