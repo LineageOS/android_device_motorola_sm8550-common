@@ -484,7 +484,6 @@ vendor/lib64/libloc_core.so
 vendor/lib64/libloc_eng_hub.so
 vendor/lib64/libloc_mq_client.so
 vendor/lib64/libloc_qwes_iface.so
-vendor/lib64/libloc_ril_client.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/libloc_util.so
 vendor/lib64/liblocation_api.so
@@ -504,6 +503,10 @@ vendor/lib64/libsys_info_cache.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/vendor.qti.gnss-V4-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
+
+# GNSS - from ctwo - ctwo_g-user 16 W1UVS36H.61-25-4 cb018-8fae939
+vendor/lib64/libloc_ril_client.so|ffce41901dab02993946701639c76364d675ff46
+
 
 # Graphics - Adreno
 vendor/lib64/egl/eglSubDriverAndroid.so
