@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e272695d_72a98774",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-08-29T12:09:23Z",
+      "side": 1,
+      "message": "It might make sense to create a shared WFD vendor for this stack. As far as I understand, the system-side part is common, while the device-specific differences are mostly limited to vendor blobs and configuration.\n\nSomething like vendor/xiaomi/wfd-common could hold the shared WFD libraries, binaries, build files, and common configuration, with each device tree simply inheriting it.\n\nIf the WFD blobs across devices like are identical or ABI-compatible, this would also avoid duplicating the same stack in every device vendor tree.",
+      "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
