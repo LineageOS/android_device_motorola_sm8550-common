@@ -150,9 +150,6 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     IPACM_Filter_cfg.xml
 
-# Kernel
-PRODUCT_ENABLE_UFFD_GC := true
-
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.xml
