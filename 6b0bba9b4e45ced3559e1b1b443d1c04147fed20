@@ -51,6 +51,23 @@
       "parentUuid": "e272695d_72a98774",
       "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "918e66f2_2b78d10f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-08-29T12:59:23Z",
+      "side": 1,
+      "message": "If this doesn’t contradict the license terms, it will make life much easier for those maintaining devices.",
+      "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
