@@ -33,6 +33,24 @@
       "message": "exp https://github.com/ThankYouMario/proprietary_vendor_qcom_common/tree/calcite/system/wfd",
       "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5339c9e_d10d1d38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2026-08-29T12:40:16Z",
+      "side": 1,
+      "message": "I personally prefer having a shared repository for this. It would be better to discuss it with the community and see what their opinion is.",
+      "parentUuid": "e272695d_72a98774",
+      "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
