@@ -68,6 +68,24 @@
       "message": "If this doesn’t contradict the license terms, it will make life much easier for those maintaining devices.",
       "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5fe6943_67e6018d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2026-08-29T14:25:26Z",
+      "side": 1,
+      "message": "I\u0027m not the one who makes the decision on this, and I don\u0027t think Gerrit is the right place to discuss it either. It would be better to bring this up on Discord.",
+      "parentUuid": "918e66f2_2b78d10f",
+      "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
