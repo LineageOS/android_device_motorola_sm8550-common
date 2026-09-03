@@ -86,6 +86,24 @@
       "parentUuid": "918e66f2_2b78d10f",
       "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d9c984d_95471655",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-09-03T02:02:54Z",
+      "side": 1,
+      "message": "from my understanding, the main issue is older devices need 32bit wfdservice, whereas 64bit need wfdservice64, and including both results in both 32bit and 64bit versions starting at the same time, so there would need to be a bunch of additional work to fix this issue and instead it\u0027s just easier if per-device tree they have it setup to their needs.\n\nI dropped the wfdconfigsink.xml in this latest patchset as I was informed it doesn\u0027t work anyways, so the config doesn\u0027t help us",
+      "parentUuid": "f5fe6943_67e6018d",
+      "revId": "6b0bba9b4e45ced3559e1b1b443d1c04147fed20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
