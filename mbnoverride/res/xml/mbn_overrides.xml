@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<mbn-overrides>
+    <!-- name = modem profile name (meta), e.g. DU_ARE_VOLTE. mnc is optional. -->
+    <!-- Only add entries that have been tested with a real SIM card. -->
+
+    <!-- Irancell (MCC: 432, MNC: 35) -->
+    <override mcc="432" mnc="35" name="DU_ARE_VOLTE"/>
+
+    <!-- Hamrah-e Aval / IR-MCI (MCC: 432, MNC: 11) -->
+    <override mcc="432" mnc="11" name="DU_ARE_VOLTE"/>
+</mbn-overrides>
