@@ -10,6 +10,7 @@ soong_namespace {
         "hardware/lineage/interfaces/power-libperfmgr",
         "hardware/motorola",
         "hardware/qcom-caf/common/libqti-perfd-client",
+        "vendor/motorola/sm8550-common",
     ],
 }
 
